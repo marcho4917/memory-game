@@ -43,7 +43,7 @@ function disableMemoryCards() {
 
     pairsAmount--;
     pairsAmount === 0 ? 
-    setTimeout(() => { endGame.classList.toggle('on')}, 1500) : null;
+    setTimeout(() => { endGame.classList.add('on')}, 1500) : null;
         
     newGame.addEventListener('click', startNewGame);
 }
@@ -64,7 +64,7 @@ function resetTable() {
 }
 
 function startNewGame() {
-    endGame.classList.toggle('on');
+    endGame.classList.remove('on');
     pairsAmount = 0;
     memoryCards.forEach(memoryCard => {
         memoryCard.classList.remove('reverse', 'off');
