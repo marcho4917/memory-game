@@ -65,7 +65,7 @@ function resetTable() {
 
 function startNewGame() {
     endGame.classList.remove('on');
-    pairsAmount = 0;
+    pairsAmount = 6;
     memoryCards.forEach(memoryCard => {
         memoryCard.classList.remove('reverse', 'off');
     });

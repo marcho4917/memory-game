@@ -13,8 +13,8 @@ body {
 
 .memory-game {
     margin: auto;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
@@ -61,7 +61,6 @@ body {
     color: #FFF176;
     height: 100px;
     width: 100px;
-    line-height: 100px;
     font-size: 80px;
 }
 
@@ -69,7 +68,6 @@ body {
     color: #ffffff;
     height: 100px;
     width: 100px;
-    line-height: 100px;
     font-size: 90px;
 }
 
