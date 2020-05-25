@@ -30,6 +30,10 @@ body {
     cursor: pointer;
 }
 
+.memory-card:hover {
+    bottom: 3px;
+}
+
 .memory-card:active {
     transform: scale(.95);
     transition: transform .2s;
@@ -101,6 +105,12 @@ button {
 	padding: 10px 24px;
     outline: none;
     border-style: none;
+}
+
+button:hover {
+    background-color: #FFF176;
+    border: solid 2px #34495E;
+    color: #34495E;
 }
 
 button:active {
